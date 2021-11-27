@@ -37,3 +37,5 @@ A line of text supplied to the editor can contain a maximum of 1024 characters.
 
 Assume that only correct commands are given to the editor (it is therefore not necessary to verify their correctness). For example, a command c is never given in which ind1> ind2, or ind1 <1, or ind1 is not the address of a line in the text, nor is the address of the first line after the text. Similarly for the other commands. 
 However, pay attention to the fact that, in some cases, the command is allowed, but it simply has no effect; for example, it is possible to give a command d in which ind1 is not the address of a line of text, but in this case the command has no effect on the text.
+
+In this repository you can find the implemented editor and a set of tests to which it has been subjected.
